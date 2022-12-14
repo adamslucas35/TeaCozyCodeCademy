@@ -1,0 +1,158 @@
+/* Just to keep images visible */
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+* {
+    font-family: Helvetica;
+    /* font-size: 22px; */
+    color: seashell;
+    /* background-color: rgb(0, 0, 0, 0.9); */
+    background-color: black;
+    /* opacity: 0.9; */
+    text-align: center;
+}
+
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 50;
+}
+
+.sitemap {
+    display: flex;
+    gap: 1.5rem;
+    margin-right: 30px;
+    font-size: 20px;
+    text-decoration: underline;
+    list-style: none;
+    opacity: 0.5;
+
+}
+
+.teacozy-logo {
+    height: 50px;
+}
+
+.mission {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*d0iqun*_ga*Njc2ODc0MTAyOC4xNjY0MjI3NDM1*_ga_3LRZM6TM9L*MTY3MDk3NjIxMS44NS4xLjE2NzA5NzYyMTQuNTcuMC4w);
+    margin: auto;
+    height: 700px;
+    max-width: 1200px;
+
+}
+
+body {
+    width: 100vw;
+}
+
+main {
+    margin-top: 70px;
+}
+
+.mission {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text-holder {
+    width: 100%;
+    opacity: 0.8;
+}
+
+.featured-tea {
+    margin-top: 4rem;
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.75rem;
+}
+
+.image h2 {
+    margin-bottom: .5rem;
+}
+
+.image h3 {
+    margin-top: .5rem;
+}
+
+.image img {
+    height: 200px;
+    width: 300px;
+}
+
+.image p {
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.locations {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1gxnqqn*_ga*Njc2ODc0MTAyOC4xNjY0MjI3NDM1*_ga_3LRZM6TM9L*MTY3MDk3NjIxMS44NS4xLjE2NzA5Nzc0OTAuNTIuMC4w);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.place {
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+}
+
+.locations .subheader {
+    margin-top: 2rem;
+    background-color: transparent;
+    opacity: 1;
+    font-size: 30px;
+}
+
+.locations .place-squares {
+    background-color: transparent;
+    display: inline-flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+footer {
+    height: 200px;
+    line-height: 2.5rem;
+    opacity: 0.5;
+}
+
+footer h2 {
+    font-size: 30px;
+}
+
+footer h5 {
+    font-size: 18px;
+}
+
+.copyright {
+    display: inline-flex;
+    align-items: flex-start;
+    margin-left: 1vw;
+    width: 96vw;
+    opacity: 0.5;
+}
